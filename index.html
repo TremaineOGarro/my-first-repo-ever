@@ -1,0 +1,68 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.hidden {
+  display: none
+}
+</style>
+</head>
+<body class="Straw_Hat_Crew">
+  <h1 id="h_1"> One Piece </h1>
+  <h2 id="h_2"> Monkey D Luffy </h2>
+  <p id="p_1"> Monkey D. Luffy is the future king of the pirates and heir to the Will of "D."</p>
+  
+  <h2 id="h_3"> Rorono Zoro </h2>
+  <p id="p_2"> Roronoa Zoro is the future world's greatest swordsman.</p>
+  
+  <h2 id="h_4"> Vinsmoke Sanji </h2>
+  <p id="p_3"> Vinsmoke Sanji is the future discoverer of the legendary sea All Blue!</p>
+<script id="jsbin-javascript">
+const h1 = document.getElementById('h_1')
+const h2 = document.getElementById('h_2')
+const h3 = document.getElementById('h_3')
+const h4 = document.getElementById('h_4')
+const p1 = document.getElementById('p_1')
+const p2 = document.getElementById('p_2')
+const p3 = document.getElementById('p_3')
+
+h2.addEventListener('click', function(){
+   p1.classList.toggle('hidden');
+});
+  
+h3.addEventListener('click', function(){
+   p2.classList.toggle('hidden');
+});
+
+h4.addEventListener('click', function(){
+   p3.classList.toggle('hidden');
+});
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">.hidden {
+  display: none
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">const h1 = document.getElementById('h_1')
+const h2 = document.getElementById('h_2')
+const h3 = document.getElementById('h_3')
+const h4 = document.getElementById('h_4')
+const p1 = document.getElementById('p_1')
+const p2 = document.getElementById('p_2')
+const p3 = document.getElementById('p_3')
+
+h2.addEventListener('click', function(){
+   p1.classList.toggle('hidden');
+});
+  
+h3.addEventListener('click', function(){
+   p2.classList.toggle('hidden');
+});
+
+h4.addEventListener('click', function(){
+   p3.classList.toggle('hidden');
+});
+</script></body>
